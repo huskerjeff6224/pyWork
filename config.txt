@@ -2,6 +2,6 @@ BIN       /miseqdata/tools
 REF_DIR   /miseqdata/safer/genomes/Homo_sapiens/UCSC/hg19/
 BT2       /miseqdata/safer/genomes/Homo_sapiens/UCSC/hg19/Sequence/BowtieIndex/ucsc.hg19
 THREADS   10
-MEMORY    12
-READS_DIR/miseqdata/130216_M00386_0017_000000000-A35M5/Data/Intensities/BaseCalls/AM 
+MEMORY    4 
+READS_DIR /miseqdata/130216_M00386_0017_000000000-A35M5/Data/Intensities/BaseCalls/AM 
 STEP      0

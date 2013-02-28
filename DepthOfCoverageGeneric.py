@@ -83,8 +83,8 @@ def CreateAnnotationDict():
             AnnotationDict[LineList[1]+":"+str((int(LineList[2])+1))+"-"+LineList[3]] = LineList[0]+" Exon "+LineList[4]
     return AnnotationDict 
     
-os.chdir('/miseqdata/130216_M00386_0017_000000000-A35M5/Data/Intensities/BaseCalls/Alignment/')
-bams= [bam for bam in os.listdir(os.curdir) if os.path.isfile(os.curdir+"/"+bam) and fnmatch.fnmatch(bam,"*.bam")]
+os.chdir('/miseqdata/130225_combine_0216_and_0221_run/JW-Control_merge/old-hyb')
+bams= [bam for bam in os.listdir(os.curdir) if os.path.isfile(os.curdir+"/"+bam) and fnmatch.fnmatch(bam,"*recalibrated.bam")]
 
 if bams != None:
     bams_in_one_dir(bams)
